@@ -7,4 +7,4 @@ WORKDIR /app
 
 RUN mvn clean package -DskipTests
 
-CMD ["java", "-jar", "target/your-app-name.jar"]
+CMD ["java", "-jar", "target/root.war"]
